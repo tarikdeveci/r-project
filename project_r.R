@@ -1,6 +1,6 @@
 
 
-# Install necessary libraries 
+# Install necessary packages 
 install.packages("dplyr")
 install.packages("ggplot2")
 install.packages("tidyverse")
@@ -211,8 +211,7 @@ table(selected_data$Score_Class)
 
 
 
-# Load the caTools package for data splitting
-library(caTools)
+
 #We used set.seed(123) to ensure reproducibility in our train/test split. The value is arbitrary but guarantees consistent results.
 set.seed(123)  # Set seed for reproducibility
 
